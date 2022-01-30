@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: CalculatorTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in CalculatorTests
+div_for1and0_throwsEx  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at CalculatorTests.div_for1and0_throwsEx(CalculatorTests.java:110)
+
