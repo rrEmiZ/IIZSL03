@@ -93,8 +93,6 @@ public class CalculatorTests {
         Assert.assertEquals(c, result);
     }
 
-    @Rule
-    public ExpectedException thrown = ExpectedException.none();
 
     @Test()
     public void div_for1and0_throwsEx() {
@@ -103,8 +101,6 @@ public class CalculatorTests {
 
         Calculator calc = new Calculator();
 
-        thrown.expect(ArithmeticException.class); //you can test the exception message like
-        thrown.expectMessage("expected messages");
         calc.div(1, 0);
     }
 }
